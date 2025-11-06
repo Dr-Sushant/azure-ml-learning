@@ -1,0 +1,5 @@
+statsmodels==0.13.5
+scikit-learn
+matplotlib
+pandas
+numpy
