@@ -27,13 +27,17 @@ conda create -n aml_user_env python=3.10 -y
 conda activate aml_user_env
 pip install -r requirements.txt
 python -m ipykernel install --user --name aml_user_env --display-name "Python (aml_user_env)"
-🧮 Core Stack
-Layer	Libraries
-AI Core	scikit-learn · statsmodels · tensorflow · torch
-Biomedical	pydicom · scikit-image · simpleitk
-Visualization	matplotlib · seaborn · plotly
-Quantum	qiskit · pennylane
-Azure SDK	azure-ai-ml · azureml-core · mlflow
+
+## 🧮 Core Stack
+
+| Layer | Libraries |
+|:--|:--|
+| AI Core | scikit-learn · statsmodels · tensorflow · torch |
+| Biomedical | pydicom · scikit-image · simpleitk |
+| Visualization | matplotlib · seaborn · plotly |
+| Quantum | qiskit · pennylane |
+| Azure SDK | azure-ai-ml · azureml-core · mlflow |
+
 🧩 Project Use Cases
 
 Anesthesia Drift Detector (DriftGuard) – Safety analytics for peri-operative monitoring
